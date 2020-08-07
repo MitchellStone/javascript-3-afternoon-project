@@ -22,7 +22,12 @@ var carDetails = {
 */
 
 //Code Here
+	
+const newCarDetails = carDetails;
 
+delete carDetails;
+
+console.log(myCar);
 
 
 ////////// PROBLEM 2 //////////
