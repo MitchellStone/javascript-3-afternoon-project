@@ -51,7 +51,11 @@ var employees = [
 */
 
 //Code Here
-
+function employeeUpdater(){
+  for (i = 0; i < employees.length; i++){
+    if (employees.firstName === "theo")
+  } 
+}
 
 
 ////////// PROBLEM 2 //////////
