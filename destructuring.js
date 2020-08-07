@@ -22,13 +22,12 @@ var carDetails = {
 */
 
 //Code Here
-	
-const newCarDetails = carDetails;
 
-delete carDetails;
+const newCarDetails = Object.assign({}, carDetails);
 
-console.log(myCar);
+delete newCarObj.make;
 
+console.log(newCarDetails);
 
 ////////// PROBLEM 2 //////////
 
