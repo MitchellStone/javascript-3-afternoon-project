@@ -50,11 +50,15 @@ var employees = [
     3. Return the updated employee array.
 */
 
-//Code Here
-function employeeUpdater(){
-  for (i = 0; i < employees.length; i++){
-    if (employees.firstName === "theo")
-  } 
+let employeeUpdater = () => {
+let filteredEmployees = employees.filter(e => e.firstName !== "Theo")
+let mappedEmployees = filteredEmployees.map(e => {
+  if (e.firstName === "Lorie"){
+  e.department = "HR"
+}
+return e
+})
+return mappedEmployees
 }
 
 
